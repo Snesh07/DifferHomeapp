@@ -21,7 +21,7 @@ const Navbar = () => {
 
                     {/* <!-- Navbar Links --> */}
 
-                    <div data-aos="fade-down" data-aos-duration="2000">
+                    <div data-aos="fade-down" data-aos-duration="2000">                    
                         <ul id="menu">
                             <li><a href="#home_">Home</a></li>
                             {/* <!----> */}
@@ -31,7 +31,7 @@ const Navbar = () => {
                             {/* <!----> */}
                             <li><a href="#contactus">Contact US</a></li>
                         </ul>
-                    </div>
+                    </div>                    
                 </div>
             </nav>
 
