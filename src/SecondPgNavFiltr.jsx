@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 import context from "./Context";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretDown, faSearch, } from "@fortawesome/free-solid-svg-icons";
-import Service from "./Service";
+
 
 const SecondPgNavFiltr = () => {
 
@@ -61,47 +61,47 @@ const SecondPgNavFiltr = () => {
       })
     }
 
-    if (areaType != "All")
+    if (areaType !== "All")
       tempHouses = tempHouses.filter((house) => {
-        return house.areaType == areaType;
+        return house.areaType === areaType;
       });
 
-    if (propertyType != "All")
+    if (propertyType !== "All")
       tempHouses = tempHouses.filter((house) => {
-        return house.propertyType == propertyType;
+        return house.propertyType === propertyType;
       });
 
-    if (bhk != -1)
+    if (bhk !== -1)
       tempHouses = tempHouses.filter((house) => {
         console.log(house.bedrooms);
         console.log(bhk);
-        return house.bedrooms == bhk;
+        return house.bedrooms === bhk;
       });
 
     //console.log("pa"+propertyAge)
 
     tempHouses = tempHouses.filter((house) => {
       let pAge = house.age;
-      if (propertyAge[0] == 1 && pAge >= 0 && pAge < 2) {
+      if (propertyAge[0] === 1 && pAge >= 0 && pAge < 2) {
         return 1;
       }
-      if (propertyAge[1] == 1 && pAge >= 2 && pAge < 5) {
+      if (propertyAge[1] === 1 && pAge >= 2 && pAge < 5) {
         return 1;
       }
-      if (propertyAge[2] == 1 && pAge >= 5 && pAge < 10) {
+      if (propertyAge[2] === 1 && pAge >= 5 && pAge < 10) {
         return 1;
       }
-      if (propertyAge[3] == 1 && pAge >= 10) {
+      if (propertyAge[3] === 1 && pAge >= 10) {
         return 1;
       }
       return 0;
     });
-    if (propertyStatus != "All") {
+    if (propertyStatus !== "All") {
       console.log("gg");
       tempHouses = tempHouses.filter((house) => {
         console.log("ram");
-        console.log(house.status == propertyStatus + 6);
-        return house.status == propertyStatus;
+        console.log(house.status === propertyStatus + 6);
+        return house.status === propertyStatus;
       });
     }
     //  if(propertyStatus!="All")
@@ -113,7 +113,7 @@ const SecondPgNavFiltr = () => {
     //   })
     tempHouses = tempHouses.filter((house) => {
       console.log("shyam");
-      return house.furnished == furnished;
+      return house.furnished === furnished;
     });
 
     // const housesObj=Object.fromEntries(tempHouses)

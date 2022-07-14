@@ -1,6 +1,5 @@
 import React from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import context from './Context'
 
 import Home from "./Home";
 import Navbar from "./Navbar";
@@ -42,10 +41,4 @@ const App =() => {
 
 export default App;
 
-// function App(){
-//     return(
-//         <Home />
-    
-//     )
-// }
-// export default App;
+
