@@ -56,8 +56,8 @@ const ThirdPage = () => {
                     <a href="">View Map</a>
                 </div>
                 <div className="prop-details">
-                    <h2>{location.state.title}</h2>
-                    <p>Address of the property from state to particular locality and pin code too.</p>
+                    <h2>{location.state.house.propertyName}</h2>
+                    <p>{location.state.house.city}</p>
                     <div className="icons">
                         <div className="area" id="icon">
                             <h5><FontAwesomeIcon icon={faPieChart} /> Area</h5>
@@ -65,11 +65,11 @@ const ThirdPage = () => {
                         </div>
                         <div className="price" id="icon">
                             <h5><FontAwesomeIcon icon={faTag} /> Price</h5>
-                            <p>75 Lacs</p>
+                            <p>{location.state.house.price}</p>
                         </div>
                         <div className="bhk" id="icon">
                             <h5><FontAwesomeIcon icon={faBed} /> BHK</h5>
-                            <p>3 Bedrooms, 2 Bathrooms</p>
+                            <p>{location.state.house.bedrooms}</p>
                         </div>
                     </div>
                     <div className="about-prop">
