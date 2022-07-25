@@ -1,6 +1,6 @@
 import React from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import context from './Context'
+
 
 import Home from "./Home";
 import Navbar from "./Navbar";
@@ -24,10 +24,11 @@ import './ConsltAbout.css';
 import './Footer.css';
 import './Under_maintain.css';
 
+
+
 const App =() => {
     return (
-
-       <>
+        <>
            <Navbar />
            <Home />
            <Benefits />
@@ -36,8 +37,9 @@ const App =() => {
            <GainExperience />
            <ConsltAbout />
            <Footer />
+           
         </>
-    );
+    )
 } 
 
 export default App;
