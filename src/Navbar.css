@@ -118,12 +118,17 @@ a {
     background-color: #114765;
     position: fixed;
     z-index: 8;
+    left: 0%;
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
-    align-content: center;
   }
   #menu2 ul li{
     font-size: 20px;
     padding-top: 10px;
+    align-items: center;
+    margin-left: 0;
+  }
+  #menu2 ul{
+    padding-left: 0;
   }
   #menu2 ul li a{
     color: #fff;
