@@ -113,8 +113,9 @@ a {
   #menu2 { 
     /* margin-top: 64px; */
     padding-top: 62px;
+    padding-left: 0;
     text-align: center;
-    width: 100%;
+    width: 82%;
     background-color: #114765;
     position: fixed;
     z-index: 8;
@@ -126,6 +127,7 @@ a {
     padding-top: 10px;
     align-items: center;
     margin-left: 0;
+    padding-left: 0;
   }
   #menu2 ul{
     padding-left: 0;
