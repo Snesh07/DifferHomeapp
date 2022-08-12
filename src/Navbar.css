@@ -25,6 +25,7 @@ a {
   z-index: 10;
   justify-content: baseline;
   display: flex;
+  overflow-x: hidden;
 }
 
 .nav-wrapper {
@@ -115,12 +116,13 @@ a {
     padding-top: 62px;
     padding-left: 0;
     text-align: center;
-    width: 82%;
+    width: 82.4%;
     background-color: #114765;
     position: fixed;
     z-index: 8;
     left: 0%;
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
+    overflow-x: hidden;
   }
   #menu2 ul li{
     font-size: 20px;
