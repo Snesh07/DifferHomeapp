@@ -12,7 +12,7 @@
 
  .bg_container .image{
     width: 100%;
-    height: 95%;
+    height: 100%;
     background-image: linear-gradient(rgba(17, 71, 101, 0.3), rgba(17, 71, 101, 0.6)),
     url("../public/images/carousel.jpg");
       background-repeat: no-repeat;
@@ -258,7 +258,7 @@
     position: absolute;
     display: flex;
     z-index: 3;
-    margin-top: 105vh;
+    margin-top: 100vh;
     width: 80%;
     left: 6%;
 }
