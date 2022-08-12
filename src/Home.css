@@ -1,6 +1,6 @@
 .bg_container{
     margin-bottom:2%;
-    margin-top: 50px;
+    margin-top: 2px;
     z-index: 1;
     position: absolute;
     background-repeat: no-repeat;
@@ -92,7 +92,7 @@
         height : 100vh;
     }
     .tagline{
-        top: 8%;
+        top: 12%;
         left: 2%;
         right: 6%;
     }
@@ -157,31 +157,23 @@
     margin-left: 5px;
     font-weight: 20%;
 }
+.searchbox form #villa{
+    margin-left: 70px;
+}
 .state_name{
     margin: 5px 20px;
 }
 .state_name label{
     font-weight: 20%;
-    padding: 2px;
-}
-.state_name input[placeholder=States]{
     padding: 5px 10px;
-    font-size: 13px;
 }
-.state_name input[list=states] {
+.state_name select {
     width: 100%;
     border: none;
     border-radius: 5px;
 }
-.state_name input[list=states]:hover {
+.state_name select:hover {
     border: 1px solid rgb(27, 66, 87);
-}
-
-.state_name datalist[id=states]:after{
-    background-color: #fff;
-    font-size: 15px;
-    padding: none;
-    margin: 0%;
 }
 
 .city_name{
@@ -191,24 +183,13 @@
     font-weight: 20%;
     padding: 2px;
 }
-.city_name input[placeholder=City]{
-    padding: 5px 10px;
-    font-size: 13px;
-}
-.city_name input[list=cities] {
+.city_name select{
     width: 100%;
     border: none;
     border-radius: 5px;
 }
-.city_name input[list=cities]:hover {
+.city_name select:hover {
     border: 1px solid rgb(27, 66, 87);
-}
-
-.city_name datalist[id=cites]:after{
-    background-color: #fff;
-    font-size: 15px;
-    padding: none;
-    margin: 0%;
 }
 
 .searchbox .startbtn a{
@@ -235,7 +216,7 @@
     }
     .reponsive_btn a{
         display: inline;
-        top: 57%;
+        top: 51%;
         margin-left: 35%;
         position: absolute;
         width: auto;

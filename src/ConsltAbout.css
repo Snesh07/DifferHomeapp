@@ -64,7 +64,7 @@
 @media (max-width:600px){
     .Consult_about {
         position: absolute;
-        margin-top: 345vh;
+        margin-top: 330vh;
         width: 100%;
         left: 2%;
         right: 0%;
@@ -97,6 +97,11 @@
         text-align: center;
         margin: 20px 0;
     }
+
+    .btn :hover{
+        border: none;
+    }
+
     .responsive_part .btn a{
         background-color: #384FE9;
         color: #fff;

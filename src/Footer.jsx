@@ -35,9 +35,9 @@ const Footer = () => {
             <a href="tel:+919351822152"> (+91) 93518 22152 </a>
           </div>
           <div className="Footericons">
-            <a href="#"><img src='images/Icon awesome-facebook.png' /></a>
-            <a href="#"><img src='images/Icon feather-instagram.png' /></a>
-            <a href="#"><img src='images/Icon awesome-twitter.png' /></a>
+            <a href="https://www.facebook.com/DifferHome"><img src='images/Icon awesome-facebook.png' /></a>
+            <a href="https://instagram.com/differhome?igshid=YmMyMTA2M2Y="><img src='images/Icon feather-instagram.png' /></a>
+            <a href="https://twitter.com/DifferHome?t=11TIVul9d1sd6i3APqYFKg&s=08"><img src='images/Icon awesome-twitter.png' /></a>
           </div>
         </div>
       </div>
